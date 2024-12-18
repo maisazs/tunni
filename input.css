@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -58,4 +58,20 @@
 
 .news-date {
     @apply font-inter font-normal md:text-[16px] text-[14px] leading-[24px] text-gray-10;
+}
+
+.btn-next-prev {
+    @apply gap-[10px] p-[10px];
+}
+
+.btn-next-prev-txt {
+    @apply flex items-center gap-[10px] font-inter font-semibold text-[16px] leading-[150%] text-primary hover:underline;
+}
+
+.pag-screen {
+    @apply font-roboto font-semibold md:text-[14px] text-[12px] leading-[20px] text-primary px-[11px] py-[5px] bg-primary-2 rounded-[24px];
+}
+
+.pag-opt {
+    @apply font-roboto font-semibold md:text-[14px] text-[12px] leading-[20px] text-gray-4 hover:text-primary hover:underline;
 }

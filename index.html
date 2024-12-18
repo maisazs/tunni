@@ -6,12 +6,12 @@
   <link href="output.css" rel="stylesheet">
   <title>Blog Tunni</title>
 
-  <!--npx tailwindcss -i ./src/input.css -o ./src/output.css --watch-->
+  <!--npx tailwindcss -i ./input.css -o ./output.css --watch-->
 </head>
 <body class="m-0 p-0 bg-white">
 
-  <header class="content-center container mx-auto">
-    <div class="container flex justify-between content-center px-[15px] fixed bg-white bg-opacity-30 backdrop-blur-sm sm:h-[93px] h-[50px] ">
+  <header class="content-center container mx-auto z-50">
+    <div class="container flex justify-between content-center px-[15px] fixed bg-white bg-opacity-50 backdrop-blur-sm sm:h-[93px] h-[50px] z-50">
 
       <div class="flex justify-start items-center gap-[32px]">
         <img src="img/logo.png" alt="logo">
@@ -28,7 +28,7 @@
     </div>
   </header>
 
-  <section class="container flex flex-col sm:gap-[48px] gap-[25px] mx-auto sm:mt-[150px] mt-[80px] border-b-[1px] border-gray-7 ms:pb-[48px] pb-[25px] px-[15px]">
+  <section class="container flex flex-col sm:gap-[48px] gap-[25px] mx-auto sm:mt-[150px] mt-[80px] border-b-[1px] border-gray-7 pb-[25px] sm:pb-[48px] px-[15px]">
     <div class="flex flex-col sm:gap-[23px] gap-[15px] items-start">
       <h1 class="md:text-[40px] text-[30px] font-manrope font-semibold text-primary-3 tracking-[-1%]">Bem-vindo ao Blog Tunni</h1>
       <p class="font-inter md:text-[16px] text-[14px] font-normal leading-[150%] text-gray-3">Your source for what's happening with Tunni</p>

@@ -873,10 +873,6 @@ video {
   max-width: 1280px;
 }
 
-.max-w-screen-lg{
-  max-width: 1024px;
-}
-
 .flex-shrink{
   flex-shrink: 1;
 }
@@ -3148,10 +3144,6 @@ video {
     width: 250px;
   }
 
-  .sm\:max-w-full{
-    max-width: 100%;
-  }
-
   .sm\:max-w-screen-sm{
     max-width: 640px;
   }
@@ -3267,10 +3259,6 @@ video {
     max-width: 1024px;
   }
 
-  .lg\:max-w-screen-xl{
-    max-width: 1280px;
-  }
-
   .lg\:bg-\[url\(\'\/img\/bg-teste\.png\'\)\]{
     background-image: url('/img/bg-teste.png');
   }
@@ -3295,20 +3283,6 @@ video {
 
   .xl\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .xl\:pr-\[120px\]{
-    padding-right: 120px;
-  }
-}
-
-@media (min-width: 1536px){
-  .\32xl\:gap-\[35px\]{
-    gap: 35px;
-  }
-
-  .\32xl\:pr-\[150px\]{
-    padding-right: 150px;
   }
 }
 

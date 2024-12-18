@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.selected {
+    @apply font-inter font-semibold md:text-[14px] text-[12px] leading-[150%] text-white-2 px-[16px] py-[14px] rounded-[8px] bg-primary;
+}
+
+.select {
+    @apply font-inter font-semibold md:text-[14px] text-[12px] leading-[150%] text-gray-4 px-[16px] py-[14px] rounded-[8px] border-[1px] border-gray-5 hover:bg-gray-2 hidden;
+}
+
+.news {
+    @apply container p-[15px] rounded-[12px] border-[1px] border-gray-9 lg:w-[392px] w-[350px] flex-col items-center cursor-pointer gap-[16px] hover:bg-gray-2 hover:scale-[1.02] transform transition-transform duration-300;
+}
+
+.news-pag {
+    @apply p-[8px] flex flex-col items-start gap-[32px];
+}
+
+.news-txt {
+    @apply flex flex-col gap-[24px] items-start;
+}
+
+.news-infos {
+    @apply flex flex-row items-center gap-[10px];
+}
+
+.news-type {
+    @apply px-[12px] py-[10px] bg-primary-4 rounded-[5px] font-inter font-semibold md:text-[14px] text-[12px] leading-[150%] text-primary;
+}
+
+.news-time {
+    @apply flex flex-row items-center gap-[10px];
+}
+
+.news-time-txt {
+    @apply font-inter font-normal md:text-[14px] text-[12px] leading-[150%] text-gray-3;
+}
+
+.news-title {
+    @apply font-manrope font-bold md:text-[24px] text-[20px] leading-[130%] text-title-2;
+}
+
+.news-cont {
+    @apply font-inter font-normal md:text-[16px] text-[14px] leading-[150%] text-gray-3;
+}
+
+.news-credit {
+    @apply flex flex-row items-center gap-[20px];
+}
+
+.news-autor {
+    @apply font-inter font-medium md:text-[16px] text-[14px] leading-[24px] text-gray-10;
+}
+
+.news-date {
+    @apply font-inter font-normal md:text-[16px] text-[14px] leading-[24px] text-gray-10;
+}

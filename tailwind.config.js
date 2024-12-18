@@ -7,6 +7,9 @@ module.exports = {
       'primary-2': '#EEFFF6',
       'primary-3': '#00361F',
       'primary-4': '#EEFFF6',
+      'primary-5': '#077444',
+      'primary-6': '#00FF9D',
+      'primary-7': '#00462B',
 
       'gray-2': '#F7F7F7',
       'gray-3': '#6D6D6D',
@@ -17,6 +20,7 @@ module.exports = {
       'gray-9': '#E8E8EA',
       'gray-10': '#97989F',
 
+      'white': '#fff',
       'white-2': '#EEFFF6',
 
       'title-2': '#181A2A',

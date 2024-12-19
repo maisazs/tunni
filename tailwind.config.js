@@ -10,6 +10,7 @@ module.exports = {
       'primary-5': '#077444',
       'primary-6': '#00FF9D',
       'primary-7': '#00462B',
+      'primary-8': '#00301E',
 
       'gray-2': '#F7F7F7',
       'gray-3': '#6D6D6D',
@@ -19,9 +20,14 @@ module.exports = {
       'gray-7': '#D9D9D9',
       'gray-9': '#E8E8EA',
       'gray-10': '#97989F',
+      'gray-11': '#D9D6CE',
+      'gray-12': '#668273',
 
       'white': '#fff',
       'white-2': '#EEFFF6',
+      'white-3': '#FFFCF2',
+
+      'black': '#000',
 
       'title-2': '#181A2A',
     },

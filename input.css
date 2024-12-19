@@ -75,3 +75,7 @@
 .pag-opt {
     @apply font-roboto font-semibold md:text-[14px] text-[12px] leading-[20px] text-gray-4 hover:text-primary hover:underline;
 }
+
+.tpc {
+    @apply font-manrope font-semibold md:text-[14px] text-[12px] text-black hover:underline;
+}

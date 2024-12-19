@@ -38,9 +38,9 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'bg-teste': "url('/img/bg-teste.png')",
-        'bg-teste-sm': "url('/img/bg-teste-sm.png')",
-        'bg-teste-auto': "url('/img/bg-teste-auto.png')",
+        'bg-teste': "url('./img/bg-teste.png')",
+        'bg-teste-sm': "url('./img/bg-teste-sm.png')",
+        'bg-teste-auto': "url('./img/bg-teste-auto.png')",
       },
     },
   },

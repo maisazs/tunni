@@ -1969,7 +1969,7 @@ video {
 }
 
 .bg-bg-teste-auto{
-  background-image: url('/img/bg-teste-auto.png');
+  background-image: url('./img/bg-teste-auto.png');
 }
 
 .decoration-slice{
@@ -3316,7 +3316,7 @@ video {
   }
 
   .sm\:bg-bg-teste-sm{
-    background-image: url('/img/bg-teste-sm.png');
+    background-image: url('./img/bg-teste-sm.png');
   }
 
   .sm\:pb-\[48px\]{
@@ -3450,7 +3450,7 @@ video {
   }
 
   .lg\:bg-bg-teste{
-    background-image: url('/img/bg-teste.png');
+    background-image: url('./img/bg-teste.png');
   }
 }
 

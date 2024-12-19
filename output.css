@@ -1968,7 +1968,7 @@ video {
   --tw-bg-opacity: 0.5;
 }
 
-.bg-\[url\(\'\/img\/bg-teste-auto\.png\'\)\]{
+.bg-bg-teste-auto{
   background-image: url('/img/bg-teste-auto.png');
 }
 
@@ -3315,7 +3315,7 @@ video {
     gap: 6px;
   }
 
-  .sm\:bg-\[url\(\'\/img\/bg-teste-sm\.png\'\)\]{
+  .sm\:bg-bg-teste-sm{
     background-image: url('/img/bg-teste-sm.png');
   }
 
@@ -3449,7 +3449,7 @@ video {
     align-items: center;
   }
 
-  .lg\:bg-\[url\(\'\/img\/bg-teste\.png\'\)\]{
+  .lg\:bg-bg-teste{
     background-image: url('/img/bg-teste.png');
   }
 }

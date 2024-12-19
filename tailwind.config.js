@@ -36,7 +36,13 @@ module.exports = {
       manrope: ['Manrope', 'sans-serif'],
       roboto: ['Roboto', 'sans-serif'],
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'bg-teste': "url('/img/bg-teste.png')",
+        'bg-teste-sm': "url('/img/bg-teste-sm.png')",
+        'bg-teste-auto': "url('/img/bg-teste-auto.png')",
+      },
+    },
   },
   plugins: [],
 }

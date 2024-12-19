@@ -9,7 +9,7 @@
 }
 
 .select {
-    @apply font-inter font-semibold md:text-[14px] text-[12px] leading-[150%] text-gray-4 px-[16px] py-[14px] rounded-[8px] border-[1px] border-gray-5 hover:bg-primary hover:bg-opacity-70 hover:text-white hidden transition-colors duration-300;
+    @apply font-inter font-semibold md:text-[14px] text-[12px] leading-[150%] text-gray-4 px-[16px] py-[14px] rounded-[8px] border-[1px] border-gray-5 hover:bg-primary hover:bg-opacity-70 hover:text-white transition-colors duration-300;
 }
 
 .news {
@@ -95,4 +95,3 @@
 .tpc {
     @apply font-manrope font-semibold md:text-[14px] text-[12px] text-black hover:underline;
 }
-

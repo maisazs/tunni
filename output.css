@@ -665,6 +665,18 @@ video {
   inset-inline-end: 0.25rem;
 }
 
+.top-0{
+  top: 0px;
+}
+
+.top-\[0\]{
+  top: 0;
+}
+
+.top-\[0\%\]{
+  top: 0%;
+}
+
 .isolate{
   isolation: isolate;
 }

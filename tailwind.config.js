@@ -11,6 +11,9 @@ module.exports = {
       'primary-6': '#00FF9D',
       'primary-7': '#00462B',
       'primary-8': '#00301E',
+      'primary-9': '#03E47E',
+
+      'primary-disc': '#085F3B',
 
       'gray-2': '#F7F7F7',
       'gray-3': '#6D6D6D',
@@ -41,6 +44,8 @@ module.exports = {
         'bg-teste': "url('./img/bg-teste.png')",
         'bg-teste-sm': "url('./img/bg-teste-sm.png')",
         'bg-teste-auto': "url('./img/bg-teste-auto.png')",
+
+        'bg-disc': "url('./img/bg-disc.png')",
       },
     },
   },

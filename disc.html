@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="output.css" rel="stylesheet">
+  <title>Teste DISC - Tunni</title>
+
+  <!--npx tailwindcss -i ./input.css -o ./output.css --watch-->
+</head>
+
+<body class="m-0 p-0 bg-primary-disc">
+    <header class="bg-primary-disc border-b-[1px] border-primary-5">
+        <nav class="container mx-auto flex flex-row justify-between sm:py-[24px] py-[15px] px-[15px] xl:max-w-screen-xl">
+            <img src="img/logo-header-disc.svg" alt="Logo Tunni">
+            <div class="flex items-center gap-[32px]">
+                <a href="#" class="font-manrope font-bold md:text-[16px] text-[14px] text-white-2 leading-[40px] tracking-[1%] hover:text-primary-6 transition-colors duration-300">Sobre nós</a>
+                <a href="#" class="font-manrope font-bold text-[16px] text-primary-7 leading-[40px] tracking-[1%] bg-white rounded-[100px] py-[10px] px-[24px] hover:bg-primary-6  transition-colors duration-300 sm:block hidden">Começar Teste Gratuito</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="bg-primary-disc px-[15px] flex flex-row items-center justify-center bg-bg-disc lg:bg-none bg-contain bg-right-bottom bg-no-repeat">
+        <section class="container xl:max-w-screen-xl flex md:flex-row flex-col items-center justify-between md:gap-[15px] gap-[40px] sm:pt-[60px] pt-[30px] sm:pb-[150px] pb-[50px] lg:bg-bg-disc bg-contain bg-right-bottom bg-no-repeat">
+            <div class="flex flex-col sm:items-start items-center gap-[12px] sm:w-[555px] w-[80%]">
+                <h1 class="font-manrope font-semibold md:text-[58px] text-[40px] sm:leading-[79px] tracking-[-1%] text-white text-center sm:text-left">Inicie seu teste <span class="font-extrabold">DISC</span> gratuitamente</h1>
+                <div class="flex flex-col sm:items-start items-center gap-[32px]">
+                    <div class="flex flex-col items-start gap-[32px]">
+                        <p class="font-inter font-normal md:text-[16px] text-[14px] leading-[24px] text-white-2 text-center sm:text-left">Ficou interessado em saber qual o seu perfil DISC? <br> Faça esse <span class="font-manrope font-bold">pequeno e rápido teste!</span></p>
+
+                        <div class="flex flex-col items-start gap-[24px] opacity-[80%]">
+                            <div class="flex flex-row items-center justify-between sm:gap-[18px] gap-[10px]">
+                                <div class="w-[41px] h-[41px] border-[0.8px] border-white-2 rounded-[5.38px] flex items-center justify-center sm:scale-[1] scale-[0.8]"><img src="img/ampulheta.svg" alt="Ampulheta" ></div>
+                                <p class="font-inter font-normal md:text-[14px] text-[12px] leading-[21px] text-white-2">São apenas 30 perguntas, com 4 alternativas cada.</p>
+                            </div>
+                            <div class="flex flex-row items-center justify-between sm:gap-[18px] gap-[10px]">
+                                <div class="w-[41px] h-[41px] border-[0.8px] border-white-2 rounded-[5.38px] flex items-center justify-center sm:scale-[1] scale-[0.8]"><img src="img/perfil-disc.svg" alt="Icone" ></div>
+                                <p class="font-inter font-normal md:text-[14px] text-[12px] leading-[21px] text-white-2">São apenas 30 perguntas, com 4 alternativas cada.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#" class="font-manrope font-bold md:text-[16px] text-[14px] text-primary-7 leading-[40px] tracking-[1%] bg-white rounded-[100px] py-[10px] px-[24px] hover:bg-primary-6  transition-colors duration-300">Começar Teste Gratuito</a>
+                </div>
+            </div>
+
+            <div class="flex flex-col justify-between gap-[12px] sm:w-[521px] w-[80%]">
+                <img src="img/mulher.png" alt="Mulher">
+                <div class="flex flex-col justify-between items-start py-[27px] px-[33px] bg-white-2 rounded-[24px] gap-[15px]">
+                    <div class="flex flex-col items-start justify-between gap-[9px]">
+                        <h3 class="font-manrope font-semibold md:text-[18px] text-[16px] text-primary-7 leading-[21.6px]">Ana Clara Gusmão</h3>
+                        <p class="font-manrope font-bold md:text-[18px] text-[16px] text-primary-9 leading-[21.6px] p-[8px] rounded-[4px] bg-primary-7">Influência</p>
+                    </div>
+                    <p class="font-inter font-normal md:text-[14px] text-[12px] text-primary-7 leading-[21px]">No teste DISC, o perfil Influência (I) caracteriza-se por pessoas extrovertidas, otimistas e persuasivas, que valorizam a comunicação e as conexões sociais. Elas gostam de inspirar e motivar os outros.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-2 rounded-t-[30px]">
+
+        <div class="container mx-auto max-w-screen-xl md:py-[90px] p-[40px] flex flex-col justify-center items-center px-[15px]">
+    
+          <div class="flex sm:flex-row flex-col justify-between sm:gap-0 gap-[30px] items-center container pb-[42px] border-b-[1px] border-b-gray-11">
+    
+            <div class="flex lg:flex-row flex-col lg:items-center sm:items-start items-center justify-start gap-[20px]">
+              <img src="img/logo-footer.svg" alt="logo Tunni">
+              <p class="font-manrope font-medium md:text-[16px] text-[14px] leading-[140%] tracking-[-2%] text-primary-8 sm:w-[380px] w-[300px] sm:text-left text-center">Receba dicas de carreira, novas oportunidades e conteúdos exclusivos diretamente no seu e-mail.</p>
+            </div>
+            <form action="#" class="flex md:flex-row flex-col gap-[10px] md:items-center justify-center">
+              <div class="md:px-[25px] md:py-[10px] px-[15px] rounded-[100px] border-gray-11 border-[1px] flex flex-row justify-center items-center sm:gap-[16px] gap-[150px]"><input type="text" placeholder="Digite seu email" class="placeholder-gray-12 font-manrope font-semibold md:text-[16px] text-[14px] leading-[47px] tracking-[1%] text-black bg-gray-2 md:w-[123px] w-[110px] outline-none"> <img src="img/envelope.svg" alt="Envelope"></div>
+              <button class="font-manrope font-bold md:text-[16px] text-[14px] leading-[47px] tracking-[1%] text-white-3 md:px-[25px] md:py-[10px] px-[15px] rounded-[100px] bg-primary hover:bg-primary-8 transition transition-300 whitespace-nowrap">Inscreva-me</button>
+            </form>
+          </div>
+    
+          <div class="pt-[42px] flex sm:flex-row flex-col-reverse items-center justify-between sm:gap-0 gap-[10px] container">
+            <p class="font-manrope font-normal md:text-[12px] text-[11px] text-black sm:place-content-start text-center md:w-[297px] w-[200px]">
+              &copy; Copyright 2024 Tunni Todos os direitos reservados.
+            </p>
+          
+            <div class="flex flex-row items-center justify-center gap-[24px] md:w-[297px] w-[200px]">
+              <a href="#" target="_blank" class="font-manrope font-semibold md:text-[14px] text-[12px] text-black hover:underline">Termos</a>
+              <a href="#" target="_blank" class="font-manrope font-semibold md:text-[14px] text-[12px] text-black hover:underline">Privacidade</a>
+              <a href="#" target="_blank" class="font-manrope font-semibold md:text-[14px] text-[12px] text-black hover:underline">Cookies</a>
+            </div>
+          
+            <div class="flex flex-row items-center sm:justify-end justify-center gap-[18px] md:w-[297px] w-[200px]">
+              <a href="#" target="_blank"><img src="img/insta.svg" alt="Instagram"></a>
+              <a href="#" target="_blank"><img src="img/face.svg" alt="Facebook"></a>
+              <a href="#" target="_blank"><img src="img/ln.svg" alt="Linkedin"></a>
+              <a href="#" target="_blank"><img src="img/yt.svg" alt="Youtube"></a>
+            </div>
+          </div>
+          
+        </div>
+      </footer>
+</body>
+</html>

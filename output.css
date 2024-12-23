@@ -2338,24 +2338,14 @@ video {
   padding-bottom: 3px;
 }
 
-.py-\[5px\]{
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-.px-\[\]{
-  padding-left: ;
-  padding-right: ;
-}
-
 .py-\[40px\]{
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
-.px-\[015\]{
-  padding-left: 015;
-  padding-right: 015;
+.py-\[5px\]{
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .pb-\[25px\]{
@@ -3294,10 +3284,6 @@ video {
     width: 380px;
   }
 
-  .sm\:w-\[521px\]{
-    width: 521px;
-  }
-
   .sm\:w-\[555px\]{
     width: 555px;
   }
@@ -3365,28 +3351,8 @@ video {
     padding-bottom: 24px;
   }
 
-  .sm\:pb-\[150px\]{
-    padding-bottom: 150px;
-  }
-
   .sm\:pb-\[48px\]{
     padding-bottom: 48px;
-  }
-
-  .sm\:pt-\[60px\]{
-    padding-top: 60px;
-  }
-
-  .sm\:pb-\[100\]{
-    padding-bottom: 100;
-  }
-
-  .sm\:pb-\[100px\]{
-    padding-bottom: 100px;
-  }
-
-  .sm\:pb-\[180px\]{
-    padding-bottom: 180px;
   }
 
   .sm\:pb-\[80px\]{
@@ -3501,26 +3467,6 @@ video {
 
   .md\:pr-\[55px\]{
     padding-right: 55px;
-  }
-
-  .md\:pb-\[150px\]{
-    padding-bottom: 150px;
-  }
-
-  .md\:pb-\[\]{
-    padding-bottom: ;
-  }
-
-  .md\:pb-\[100px\]{
-    padding-bottom: 100px;
-  }
-
-  .md\:pb-\[1px\]{
-    padding-bottom: 1px;
-  }
-
-  .md\:pb-\[50px\]{
-    padding-bottom: 50px;
   }
 
   .md\:pt-\[60px\]{

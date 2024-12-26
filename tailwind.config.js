@@ -12,6 +12,7 @@ module.exports = {
       'primary-7': '#00462B',
       'primary-8': '#00301E',
       'primary-9': '#03E47E',
+      'primary-10': '#1B5E20',
 
       'primary-disc': '#085F3B',
 
@@ -25,6 +26,8 @@ module.exports = {
       'gray-10': '#97989F',
       'gray-11': '#D9D6CE',
       'gray-12': '#668273',
+      'gray-13': '#454545',
+      'gray-15': '#242424',
 
       'white': '#fff',
       'white-2': '#EEFFF6',
@@ -38,6 +41,7 @@ module.exports = {
       inter: ['Inter', 'sans-serif'],
       manrope: ['Manrope', 'sans-serif'],
       roboto: ['Roboto', 'sans-serif'],
+      merriweather: ['Merriweather', 'sans-serif'],
     },
     extend: {
       backgroundImage: {

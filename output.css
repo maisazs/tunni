@@ -3753,6 +3753,22 @@ video {
     align-items: center;
   }
 
+  .lg\:gap-\[100px\]{
+    gap: 100px;
+  }
+
+  .lg\:gap-\[200px\]{
+    gap: 200px;
+  }
+
+  .lg\:gap-\[2000px\]{
+    gap: 2000px;
+  }
+
+  .lg\:gap-\[150px\]{
+    gap: 150px;
+  }
+
   .lg\:gap-x-\[0px\]{
     -moz-column-gap: 0px;
          column-gap: 0px;
@@ -3794,6 +3810,10 @@ video {
 
   .xl\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .xl\:gap-\[150px\]{
+    gap: 150px;
   }
 
   .xl\:gap-x-\[33px\]{

@@ -13,6 +13,7 @@ module.exports = {
       'primary-8': '#00301E',
       'primary-9': '#03E47E',
       'primary-10': '#1B5E20',
+      'primary-11': '#4BEB90',
 
       'primary-disc': '#085F3B',
 
